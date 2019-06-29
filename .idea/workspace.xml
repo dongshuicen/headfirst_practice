@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8db8b9af-1ece-42a5-9f46-ecd493db0a39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/Configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/applicationContext-L1-dao-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/applicationContext-L1-oracle-dao-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/applicationContext-L1-pub.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/applicationContext-L1-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/applicationContext-admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/applicationContext-foundation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/mqconfig-archive-producer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/mqconfig-batch-businotify-producer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/mqconfig-businotify-producer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/config/mqconfig-connection-pool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/ehcache.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/config/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/cache/PlatformCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/empManager/EmpManagerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/empManager/mybatis/EmpManagerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/epolicy/EepPrintRecordDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/epolicy/EepPrintRecordDAOMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/epolicy/ReIssueListDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/epolicy/ReIssueListDAOMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/epolicy/TransInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/epolicy/TransInfoDAOMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/notifymessage/NotifyMessageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/notifymessage/NotifyMessageDAOMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/param/ParamDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/param/mybatis/ParamDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ChargePremDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ChargePremDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/EmFeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/EmFeeDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/FeeTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/FeeTypeDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/InsuredAmountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/InsuredAmountDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/IssueFeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/IssueFeeDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/JobCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/JobCategoryDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/JobUnderwriteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/JobUnderwriteDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/LifeBasicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/LifeBasicDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/PayRateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/PayRateDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/PremiumRateDAOMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/PremiumRateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/PremiumRateExtDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/PremiumRateExtDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductChannelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductChannelDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductChargeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductChargeDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductJudgeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/ProductJudgeDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/UnitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/premcalc/UnitDaoMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/pwdchange/PwdChangeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/pwdchange/mybatis/PwdChangeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/query/inins/PolicyInfoQueryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/urlmodule/UrlModuleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/urlmodule/mybatis/UrlModuleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/user/TUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/user/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/user/mybatis/TUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/dao/user/mybatis/UserDAOMybatisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/EepPrintRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/EepPrintRecordExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/PrintStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/ReIssueList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/ReIssueListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/SequenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/TransInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/epolicy/TransInfoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/notifymessage/NotifyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/notifymessage/NotifyMessageExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/notifymessage/NotifyMessageLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/notifymessage/NotifyMessageLogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/notifymessage/NotifyMessageWithBLOBs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/AmountProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ChargePrem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ChargePremExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ChargePremKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/EmFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/EmFeeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/FeeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/FeeTypeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/InsuredAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/InsuredAmountExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/IssueFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/IssueFeeKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/JobCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/JobCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/JobUnderwrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/JobUnderwriteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/JobUnderwriteKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/LifeBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/LifeBasicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PayRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PayRateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PayRateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PremDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PremParamItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PremiumRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PremiumRateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PremiumRateExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/PremiumRateExtExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductChannelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductCharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductChargeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductChargeKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductForAmountCalcPrem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductForPremCalcAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductJudge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductJudgeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductPrem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductPremParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/ProductViewForExtRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/UnitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/premcalc/UnitKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/pwdchange/PwdchangeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/pwdchange/PwdchangeMsgExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/user/TUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/domain/user/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/empManager/CompanyOrgan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/empManager/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/param/AddDefAndValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/param/DefAndValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/param/SingleValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/urlmodule/TModuleUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/urlmodule/Tmodule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/util/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/entity/util/empMangerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/event/ApplicationEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/event/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/event/impl/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mail/sender/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/empManager/EmpManagerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/empManager/TUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/epolicy/EepPrintRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/epolicy/ReIssueListMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/epolicy/SequenceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/epolicy/TransInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/login/UserLoginMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/notifymessage/NotifyMessageLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/notifymessage/NotifyMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/param/ForeignKeyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/param/TParaDefMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/mappers/urlmodule/TmoduleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/BaseRequestInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/BaseResponseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/TransResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/TxLifeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/TxLifeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/archive/ArchivePdfRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/archive/ArchivePdfResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/businotify/AdditionPara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/businotify/BusiNotifyAskKeyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/businotify/BusiNotifyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/businotify/BusiNotifyExtBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/notifymessage/NotifyBodyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/notifymessage/NotifyBodyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/print/PolicyPrintRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/print/PolicyPrintResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/query/inins/ClaimInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/query/inins/ClaimInfoDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/query/inins/PolicyDetailResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/query/inins/PolicyInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/query/inins/PolicyInfoDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/message/query/inins/PolicyInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/model/mail/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/model/system/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/ChargePremMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/EmFeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/FeeTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/InsuredAmountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/IssueFeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/JobCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/JobUnderwriteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/LifeBasicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/PayRateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/PremiumRateExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/PremiumRateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/ProductChannelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/ProductChargeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/ProductJudgeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/oraclemappers/premcalc/UnitMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/CloneUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/Env.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/ExceptionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/FrameBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/PlatformConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/PlatformPropertyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/pub/UUIDPKGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/bindingemail/BindingEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/bindingemail/BindingEmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/empManager/EmpManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/empManager/EmpManagerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicy/log/TransInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicy/policyholder/PolicyHolderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicy/print/PolicyTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicy/print/RePrintTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicyreprint/EPolicyReprintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicyreprint/EPolicyReprintServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicyresend/EPolicyResendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/epolicyresend/EPolicyResendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/notifymessage/INotifyMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/notifymessage/NotifyMessageServiceSaveImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/param/ParamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/param/ParamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/AmountCalcPremService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/PremCalcAmountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/main/PremCalcMainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/main/PremCalcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/product/ProductPremCalcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/product/ProductPremCalcServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/util/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/util/PremCalcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/premcalc/util/ProductJudgeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/query/inins/EncryDecryptProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/query/inins/IninsCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/query/inins/QueryPolicyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/query/inins/QueryPolicyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/urlmodule/UrlModuleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/urlmodule/UrlModuleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/util/CurrentSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/service/util/OneWayHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/system/filter/PlatformSystemFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/CAPDFClientTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/DateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/ScriptManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/StringEncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/tools/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/transaction/EbaoTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/transaction/InnoTrans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/transaction/Trans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/transaction/UserTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/validate/idcardvalidate/IDCard_CN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/web/SessionConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/ebao/frontsys/web/context/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/main/kotlin/cbs/claim/lock/P_RELEASE_POLICY_AS_CLAIM_DIE.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/main/kotlin/cbs/claim/lock/P_RELEASE_POLICY_CLAIM_REPORT.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/main/kotlin/cbs/claim/lock/P_SUSPEND_POLICY_AS_CLAIM.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/BasicTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/JUnit5Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/P_RELEASE_POLICY_AS_CLAIM_DIETest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/P_RELEASE_POLICY_CLAIM_REPORTTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/P_SUSPEND_POLICY_AS_CLAIM_Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hotswap_agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kt_hello/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kt_hello/src/hello/test/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kt_hello/src/hello/test/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kt_hello/src/hello/test/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn/src/test/java/learn/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/tdd/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/test/java/tdd/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/test/java/tdd/mommy.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/Duck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/Teal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/Duck.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.6.0/libexec/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="966" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561783755467" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8db8b9af-1ece-42a5-9f46-ecd493db0a39" name="Default Changelist" comment="" />
+      <created>1561782660711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561782660711</updated>
+      <workItem from="1561782663397" duration="1009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1009000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="966" extended-state="0" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1978022" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>headfirst</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
