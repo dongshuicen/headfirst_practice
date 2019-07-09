@@ -1,0 +1,86 @@
+.gradle
+/build/
+/target/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+**/.settings
+**/mylogs
+**/target
+**/.log
+**/.flattened-pom.xml
+**/logs
+### IntelliJ IDEA ###
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+/out/
+*.ipr
+*.iml
+*.ipr
+.idea
+
+### NetBeans ###
+/nbproject/private/ 
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# Created by https://www.gitignore.io/api/macos
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# End of https://www.gitignore.io/api/macos
+
+# Created by https://www.gitignore.io/api/visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+bin/
+# End of https://www.gitignore.io/api/visualstudiocode
+
+/logs/
+.idea/vcs.xml
+.idea/workspace.xml
