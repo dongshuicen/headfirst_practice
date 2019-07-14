@@ -273,14 +273,24 @@
       <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/P_RELEASE_POLICY_AS_CLAIM_DIETest.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/P_RELEASE_POLICY_CLAIM_REPORTTest.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../claim/src/test/kotlin/cbs/claim/lock/P_SUSPEND_POLICY_AS_CLAIM_Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/practice/headfirst/decorator/MochaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStylePizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStylePizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/SimplePizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/DefaultFlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/DefaultQuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/practice/headfirst/factory/NYStylePizzaStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/practice/headfirst/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/practice/headfirst/strategy/ToyDuckTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kt_hello/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kt_hello/src/hello/test/Hello.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kt_hello/src/hello/test/Hello.kt" afterDir="false" />
@@ -291,6 +301,8 @@
       <change afterPath="$PROJECT_DIR$/../test/src/test/java/tdd/FirstTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/src/test/java/tdd/mommy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/headfirst/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/observer/WeatherDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/headfirst/observer/WeatherDataTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -303,130 +315,112 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/observer/Observer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleCheesePizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStylePizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStylePizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleClamPizza.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Beverage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/CondimentDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/HouseBlend.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Espresso.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Milk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Mocha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-              </folding>
+              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/decorator/MochaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/DarkRoast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/observer/DisplayElement.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleVeggiePizza.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/Pizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/factory/NYStylePizzaStoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleClamPizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleCheesePizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding>
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -437,8 +431,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
+        <option value="Singleton" />
+        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -478,6 +474,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Milk.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/decorator/Mocha.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/practice/headfirst/decorator/MochaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/practice/headfirst/singleton/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/QuackBehavior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/QuackBehaviorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/DefaultQuackBehavior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/DefaultFlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/practice/headfirst/strategy/ToyDuckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleCheesePIzza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/MyPizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/SimplePizzaFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleCheesePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/VeggiePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ClamPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleClamPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleCheesePizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/practice/headfirst/factory/NYStyleCheesePizzaStoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/practice/headfirst/factory/NYStylePizzaStoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStylePizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStylePizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleClamPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleVeggiePizza.java" />
       </list>
     </option>
   </component>
@@ -497,10 +519,10 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -548,22 +570,98 @@
               <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
               <item name="headfirst" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="dsig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="headfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="jca" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -574,7 +672,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562772202142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563083081501" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -589,12 +687,16 @@
       <recent name="com.practice.headfirst" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.practice.headfirst.factory" />
+      <recent name="com.practice.headfirst.strategy" />
+      <recent name="com.practice.headfirst.singleton" />
       <recent name="com.practice.headfirst.decorator" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.practice.headfirst" />
       <recent name="com.practice.headfirst.strategy" />
       <recent name="com.practice.headfirst.observer" />
     </key>
@@ -605,6 +707,8 @@
       <recent name="com.practice.headfirst" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.practice.headfirst.factory" />
+      <recent name="com.practice.headfirst.strategy" />
       <recent name="com.practice.headfirst" />
     </key>
   </component>
@@ -620,18 +724,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MochaTest.should_return_true_given_mocha">
-    <configuration name="MochaTest.should_return_true_given_mocha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NYStylePizzaStoreTest.should_return_nystyle_cheese_given_cheese">
+    <configuration name="NYStylePizzaStoreTest.should_return_nystyle_cheese_given_cheese" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="headfirst" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.headfirst.decorator.*" />
+          <option name="PATTERN" value="com.practice.headfirst.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.practice.headfirst.decorator" />
-      <option name="MAIN_CLASS_NAME" value="com.practice.headfirst.decorator.MochaTest" />
-      <option name="METHOD_NAME" value="should_return_true_given_mocha" />
+      <option name="PACKAGE_NAME" value="com.practice.headfirst.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.headfirst.factory.NYStylePizzaStoreTest" />
+      <option name="METHOD_NAME" value="should_return_nystyle_cheese_given_cheese" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="headfirst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.headfirst.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.headfirst.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.headfirst.singleton.SingletonTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToyDuckTest.quack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="headfirst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.headfirst.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.headfirst.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.headfirst.strategy.ToyDuckTest" />
+      <option name="METHOD_NAME" value="quack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToyDuckTest.swim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="headfirst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.headfirst.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.headfirst.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.headfirst.strategy.ToyDuckTest" />
+      <option name="METHOD_NAME" value="swim" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -641,12 +791,12 @@
       <module name="headfirst" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.*" />
+          <option name="PATTERN" value="com.practice.headfirst.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="observer" />
-      <option name="MAIN_CLASS_NAME" value="observer.WeatherDataTest" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.headfirst.observer.WeatherDataTest" />
       <option name="METHOD_NAME" value="test_weatherdata_should_return_false" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -655,8 +805,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MochaTest.should_return_true_given_mocha" />
+        <item itemvalue="JUnit.NYStylePizzaStoreTest.should_return_nystyle_cheese_given_cheese" />
         <item itemvalue="JUnit.WeatherDataTest.test_weatherdata_should_return_false" />
+        <item itemvalue="JUnit.ToyDuckTest.quack" />
+        <item itemvalue="JUnit.ToyDuckTest.swim" />
+        <item itemvalue="JUnit.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -676,21 +829,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherDataTest_test_weatherdata_should_return_false - 2019.06.30 at 16h 29m 31s.xml">
-      <configuration name="WeatherDataTest.test_weatherdata_should_return_false" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MochaTest_should_return_true_given_mocha - 2019.07.10 at 23h 20m 50s.xml">
-      <configuration name="MochaTest.should_return_true_given_mocha" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MochaTest_should_return_true_given_mocha - 2019.07.10 at 23h 21m 22s.xml">
       <configuration name="MochaTest.should_return_true_given_mocha" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SingletonTest_should_retun_same_instance_when_get_instance - 2019.07.13 at 10h 56m 36s.xml">
+      <configuration name="SingletonTest.should_retun_same_instance_when_get_instance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonTest_should_retun_same_instance_when_get_instance - 2019.07.13 at 10h 57m 03s.xml">
+      <configuration name="SingletonTest.should_retun_same_instance_when_get_instance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonTest - 2019.07.13 at 10h 58m 31s.xml">
+      <configuration name="SingletonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherDataTest_test_weatherdata_should_return_false - 2019.07.13 at 11h 06m 57s.xml">
+      <configuration name="WeatherDataTest.test_weatherdata_should_return_false" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToyDuckTest_swim - 2019.07.13 at 11h 23m 50s.xml">
+      <configuration name="ToyDuckTest.swim" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToyDuckTest_swim - 2019.07.13 at 11h 25m 28s.xml">
+      <configuration name="ToyDuckTest.swim" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToyDuckTest_quack - 2019.07.13 at 17h 36m 50s.xml">
+      <configuration name="ToyDuckTest.quack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherDataTest_test_weatherdata_should_return_false - 2019.07.13 at 17h 38m 52s.xml">
+      <configuration name="WeatherDataTest.test_weatherdata_should_return_false" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NYStylePizzaStoreTest_should_return_nystyle_cheese_given_cheese - 2019.07.13 at 22h 35m 01s.xml">
+      <configuration name="NYStylePizzaStoreTest.should_return_nystyle_cheese_given_cheese" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14559000" />
+    <option name="totallyTimeSpent" value="31138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="967" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -701,8 +876,8 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32914287" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -745,71 +920,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/FlyBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/QuackBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/RedHeadTeal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/Teal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/ToyDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/observer/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -840,16 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/observer/WeatherDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,15 +1075,301 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/decorator/MochaTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/ByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1641">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="e#4342#4343#0" expanded="true" />
+            <element signature="e#4405#4406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1555">
+          <caret line="132" column="36" lean-forward="true" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/javax/xml/crypto/dsig/TransformService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="250" column="41" lean-forward="true" selection-start-line="250" selection-start-column="41" selection-end-line="250" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/security/jca/GetInstance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/singleton/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/RedHeadTeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/Teal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/decorator/MochaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/DefaultQuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/DefaultFlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/QuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/strategy/ToyDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/strategy/ToyDuckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/observer/WeatherDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/SimplePizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/VeggiePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/SimplePizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStyleCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/practice/headfirst/factory/NYStylePizzaStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/NYStylePizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStylePizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/headfirst/factory/ChicagoStyleVeggiePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>

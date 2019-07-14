@@ -1,9 +1,5 @@
-package observer;
+package com.practice.headfirst.observer;
 
-import com.practice.headfirst.observer.CurrentConditionsDisplay;
-import com.practice.headfirst.observer.ForeCaseDisplay;
-import com.practice.headfirst.observer.Observer;
-import com.practice.headfirst.observer.WeatherData;
 import org.junit.jupiter.api.Test;
 
 public class WeatherDataTest {
